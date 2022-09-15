@@ -1,0 +1,48 @@
+Empresa:
+gerar um hash ID
+input razão social
+input nome fantasia
+input cnpj
+	- string obrigatoriamente 14 digitos, somente numérico
+guardar o endereço
+	- input logradouro
+	- input número
+	- input complemento
+	- input bairro
+	- input cidade
+	- input estado
+	- input cep
+		- string 8 digitos numéricos
+input telefone
+	- string de 10 ou 11 números, sendo os 2 primeiros o DDD
+gerar horário de cadastro
+guardar o sócio
+	- input Nome
+	- input CPF
+		- string obrigatoriamente 11 digitos, somente numérico
+	- endereço
+		- mesmo esquema do superior
+
+a empresa deve ser guardada em um map e a chave será o id
+a consulta será feita por
+	- var qualquer input
+	- for i in values, aí mostrar a empresa caso ache, 
+	  caso não ache: tente novamente ou voltar ao menu
+como listar por ordem alfabética de acordo com os values?
+
+
+
+O que falta fazer:
+- pegar todos os dados
+- armazenar num map os dados
+- criar a consulta
+- mostrar CNPJ bonito
+- mostrar telefone bonito
+- criar um hash ID
+- criar um meio de deletar os dados
+- menu interativo com switch case
+- gravar o horário em que foi cadastrado
+- organizar bonitinho em abas diferentes
+- getters e setters
+
+
